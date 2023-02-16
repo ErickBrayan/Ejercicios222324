@@ -1,18 +1,11 @@
-public class CocheElectrico implements ICoche {
+public class CocheElectrico implements ICocheElectrico {
 
-    String tipo;
-    String bateria;
+
 
     @Override
     public String tipoCoche() {
         return "Coche Electrico";
     }
 
-    @Override
-    public String toString() {
-        return "CocheElectrico{" +
-                "tipo='" + tipo + '\'' +
-                ", bateria='" + bateria + '\'' +
-                '}';
-    }
+
 }
